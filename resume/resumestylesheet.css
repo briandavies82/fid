@@ -1,0 +1,21 @@
+body{
+ background-color: #003166;
+ margin: 0 10%;
+ font-family: 'Trebuchet MS', sans-serif;
+ }
+h1 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: 1px solid #f5f5f5;
+  margin-top: 30px;
+}
+h2 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #f5f5f5;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
