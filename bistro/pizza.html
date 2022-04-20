@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8" >
    <title>Blackstone Bistro: Pizza-on-Demand</title>
-   <style type="text/css">
+   <link rel="stylesheet" href="bistrostylesheet.css">
+    <style type="text/css">
       ol, ul { 
      list-style-type: none;
      text-align: center;
@@ -39,9 +40,9 @@ body{
 <h2>Design your dream pizza:</h2>
 
 <fieldset>
-  <legend>Pizza specs</legend>
+  <legend><h2>Pizza specs</h2></legend>
   <fieldset>
-    <legend>Crust <em>(Choose one)</em>:</legend>
+    <legend><h2>Crust <em>(Choose one)</em>:</h2></legend>
     <ul>
       <li><label><input type="radio" name="crust" value="white"> Classic white</label></li>
       <li><label><input type="radio" name="crust" value="multigrain"> Multigrain</label></li>
@@ -51,7 +52,7 @@ body{
   </fieldset>
 
   <fieldset>
-  <legend>Toppings <em>(Choose as many as you want)</em></legend>
+  <legend><h2>Toppings <em>(Choose as many as you want)</h2></em></legend>
     <ul>
       <li><label><input type="checkbox" name="toppings[]" value="red sauce" checked> Red sauce</label></li>
       <li><label><input type="checkbox" name="toppings[]" value="white sauce"> White sauce</label></li>
@@ -64,7 +65,7 @@ body{
   </fieldset>
 
   <fieldset>
-  <legend>Number</legend>
+  <legend><h2>Number</h2></legend>
   <p>How many pizzas: 
   <select name="pizzas" size="1">
     <option>1</option>
